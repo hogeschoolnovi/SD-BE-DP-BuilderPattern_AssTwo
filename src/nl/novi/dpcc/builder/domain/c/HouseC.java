@@ -21,4 +21,20 @@ public class HouseC {
     // Minimaal 1 kamer is verplicht
     private List<Room> rooms;
 
+    public HouseC(Address address, HouseType houseType) {
+        this.address = address;
+        this.houseType = houseType;
+    }
+
+    public void setGarden(Garden garden) {
+        this.garden = garden;
+    }
+
+    public void setGarage(Garage garage) {
+        this.garage = garage;
+    }
+
+    public void setRooms(List<Room> rooms) {
+        this.rooms = rooms;
+    }
 }
